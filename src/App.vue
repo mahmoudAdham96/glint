@@ -43,6 +43,7 @@
         </div>
     <navBar />
     <about id="about"/>
+    <services/>
 
   </div>
 </template>
@@ -50,12 +51,14 @@
 <script>
 import navBar from './components/navBar.vue'
 import about from './components/about.vue'
+import services from './components/services.vue'
 
 export default {
   name: 'App',
   components: {
     navBar,
-    about
+    about,
+    services
   },
 }
 </script>
